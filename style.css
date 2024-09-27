@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: darkblue;
+}
+
+header{
+    background-color: purple;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.container{
+    padding: 12px;
+    color: white;
+    height: 1300;
+}
+
+.box-items{
+    margin-top: 25px;
+    border: 3px solid white;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;  
+    font-size: 35px;  
+}
+
+.sidebar{
+    background:green;
+    color: white;
+    font-size: 30px;
+}
+
+.box-items img{
+    margin-right: 10px;
+}
+
+button{
+    margin-top: 10px;
+    color: white;
+    background: none;
+    border: none;
+    box-shadow: 0 0 0 2px white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    transition: All .2s;
+}
+button:hover{
+    box-shadow: 0 0 0 3px white;
+}
+
+.im{
+    cursor:pointer;
+    
+}
+.links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.links img{
+    margin: 0 10px;
+}
+
+.pfpT{
+    
+}
+
+.pfpT img{
+    border-radius: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.title-box{
+    width: 400;
+    margin-top: 30px;
+}
+
+.text-box{
+    width: 500;
+}
+
+footer{
+    background: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+}
