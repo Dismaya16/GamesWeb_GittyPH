@@ -29,7 +29,7 @@ header{
 .container{
     padding: 12px;
     color: white;
-    height: 1300;
+    height: 1800;
 }
 
 .box-items{
@@ -76,17 +76,6 @@ button:hover{
     cursor:pointer;
     
 }
-.links{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.links img{
-    margin: 0 10px;
-}
 
 .pfpT{
     
@@ -107,13 +96,19 @@ button:hover{
     width: 500;
 }
 
+.links img{
+    margin: 0 10px;
+}
+
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background: purple;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 40px;
-    margin-top: 30px;
     font-size: 25px;
 }
